@@ -9,7 +9,7 @@ export class AppComponent {
   img_base_url = "https://placedog.net/"
   img_size = 500
 
-  charcters = [
+  characters = [
     {
       id: 1009146,
       name: "Abomination (Emil Blonsky)",
