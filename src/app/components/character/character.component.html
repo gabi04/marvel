@@ -1,4 +1,9 @@
-<h1>{{character.name}}</h1>
-<p>{{character.description}}</p>
-<button>View More</button>
-<img [src]="character.thumbnail.path + '.' + character.thumbnail.extension" />
+<div class="character">
+    <img class="character-thumbnail" [src]="character.thumbnail.path + '.' + character.thumbnail.extension" />
+    <div class="character__description">
+        <h1 class="character__description__name">{{character.name}}</h1>
+        <p class="character__description__description">{{character.description}}</p>
+        <button class="character__description__view-more">View More</button>
+    </div>
+</div>
+
